@@ -25,7 +25,7 @@ const onClickFavorite = () => {
     return(
     <div className='card mb-30'>
         <div className='favorite' >
-          <img onClick={onClickFavorite} src={favorites.some((obj) => obj.pId == pId ) ? '/img/liked.png' : '/img/unliked.svg' } alt="Unliked" />
+          <img onClick={onClickFavorite} src={favorites.some((obj) => obj.pId == pId ) ? './img/liked.png' : './img/unliked.svg' } alt="Add to Favorite" />
         </div>
         <img className='cardImg' width={133} height={112} src={imageUrl} alt="card1" />
         <h5>{title}</h5>

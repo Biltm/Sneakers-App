@@ -8,7 +8,7 @@ export default function Drawer({handleToggleCart,  onRemove, itemsCart, setTotal
       <div onClick={(e) => { e.stopPropagation()}} className="drawer">
           <h2 className='d-flex justify-between mb-30'>
             Cart
-            <img onClick={handleToggleCart} className='cu-p' src="./img/btn-remove.svg" alt="Remove" />
+            <img onClick={handleToggleCart} className='cu-p' src="Sneakers-App/img/btn-remove.svg" alt="Remove" />
           </h2>
           {itemsCart.length ? 
             <div className="drawerContent">
@@ -20,7 +20,7 @@ export default function Drawer({handleToggleCart,  onRemove, itemsCart, setTotal
                         <p className='mb-5'>{obj.title}</p>
                         <b>{obj.price}$</b>
                     </div>
-                    <img onClick={() => onRemove(obj)} className='removeBtn' src="./img/btn-remove.svg" alt="Remove" />
+                    <img onClick={() => onRemove(obj)} className='removeBtn' src="Sneakers-App/img/btn-remove.svg" alt="Remove" />
                   </div>
                   ))}
               </div>
@@ -34,18 +34,18 @@ export default function Drawer({handleToggleCart,  onRemove, itemsCart, setTotal
                   
                 </ul>
                 <Link to='/checkout'>
-                  <button className='greenButton' onClick={handleToggleCart}>Go to checkout <img src="./img/arrow.svg" alt="arrow" /></button>
+                  <button className='greenButton' onClick={handleToggleCart}>Go to checkout <img src="Sneakers-App/img/arrow.svg" alt="arrow" /></button>
                 </Link>
                 
               </div>
             </div>
           :
             <div className='emptyDrawer'>
-              <img  src="./img/emptyDrawer.png" alt="cart" />
+              <img  src="Sneakers-App/img/emptyDrawer.png" alt="cart" />
               <h1>Your cart is empty</h1>
               <span>Let's get shopping!</span>
               <button className='greenButton' onClick={handleToggleCart}>
-                <img src="./img/arrow.svg" alt="arrow" />
+                <img src="Sneakers-App/img/arrow.svg" alt="arrow" />
                 Start shopping!
               </button>
                       
