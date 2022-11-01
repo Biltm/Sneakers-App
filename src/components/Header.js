@@ -8,7 +8,7 @@ import {Link, Routes, Route} from 'react-router-dom'
       <Link to='/'>
         <div className='d-flex align-center'>
           
-          <img  width={40} height={40} src="/img/logo.png" alt="logo" />
+          <img  width={40} height={40} src="./img/logo.png" alt="logo" />
           <div className='headerTitle'>
             <h3 className='text-uppercase'>Sneakers App</h3>
             <p className='opacity-5'>Сhoose your pair</p>
