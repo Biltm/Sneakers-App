@@ -154,7 +154,7 @@ useEffect(() => {
                 </div>
             </div>
           }/>
-          <Route path='/favorites' element={
+          <Route path='/Sneakers-App/favorites' element={
             favorites.length ? 
                 <div className='content p-40'>
                   <div className='routeIcon'></div>
@@ -202,7 +202,7 @@ useEffect(() => {
                   </Link>
                 </div>
           }/>
-          <Route path='/checkout' element={
+          <Route path='/Sneakers-App/checkout' element={
             <div className='emptyFav'>
               <img  src="Sneakers-App/img/checkout.png" alt="cart" />
                   <h1 className='mb-30'>Checkout feature coming soon</h1>
