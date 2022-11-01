@@ -5,7 +5,7 @@ import {Link, Routes, Route} from 'react-router-dom'
  
     return(
     <header className='d-flex justify-between align-center p-40'>
-      <Link to='/'>
+      <Link to='/Sneakers-App/'>
         <div className='d-flex align-center'>
           
           <img  width={40} height={40} src="./img/logo.png" alt="logo" />

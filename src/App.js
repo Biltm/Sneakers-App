@@ -194,7 +194,7 @@ useEffect(() => {
                     Start adding items to your Watchlist today! 
                     Simply tap ‘Add to watchlist button’ next to the item you want to keep a close eye on.
                   </span>
-                  <Link to='/'>
+                  <Link to='/Sneakers-App/'>
                     <button className='greenButton'>
                       <img src="./img/arrow.svg" alt="arrow" />
                       Back to products
@@ -207,7 +207,7 @@ useEffect(() => {
               <img  src="./img/checkout.png" alt="cart" />
                   <h1 className='mb-30'>Checkout feature coming soon</h1>
                   
-                  <Link to='/'>
+                  <Link to='/Sneakers-App/'>
                     <button className='green greenButton'>
                       <img src="./img/arrow.svg" alt="arrow" />
                       Back to products
