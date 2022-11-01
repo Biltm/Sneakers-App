@@ -20,7 +20,7 @@ import {Link, Routes, Route} from 'react-router-dom'
           <ul className='d-flex '>
             <li onClick={handleToggleCart} className='cartIcon mr-15  cu-p'>
               {itemsCart ? <div className="itemsCart"><span>{itemsCart}</span></div> : null}
-              <img width={20} height={20} src="/img/cart.svg" alt="cart" />
+              <img width={20} height={20} src="./img/cart.svg" alt="cart" />
                 <span className='ml-15'>{totalPrice}$</span>
             </li>
             <Link to='/favorites'>

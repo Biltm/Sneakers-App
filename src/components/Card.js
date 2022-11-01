@@ -3,7 +3,7 @@ import { useState } from 'react';
 
 export default function Card({title, imageUrl, price, id, pId, onPlus, onFavorite, calcTotalPrice, setTotalPrice, favorited = false, favorites}) {
  
- const [isAddet, setIsAddet] = useState('/img/btn-plus.svg')
+ const [isAddet, setIsAddet] = useState('./img/btn-plus.svg')
   const [isFavorite, setIsFavorite] = useState(favorited)
  
 const onClickPlus = () => {

@@ -118,13 +118,13 @@ useEffect(() => {
        />
 
       <Routes>
-          <Route path='/' element={
+          <Route path='/Sneakers-App/' element={
             <div className='content p-40'>
                 <div className='d-flex align-center justify-between mb-40'>
                   <h1 >{searchValue ? `Search by request "${searchValue}"` : 'All sneakres' }</h1>
                   <div className='search-block'>
-                    <img src="/img/search.svg" alt="Search" />
-                    <img onClick={() => setSearchValue('')} className='removeInput cu-p' src="/img/btn-remove.svg" alt="Remove" />
+                    <img src="./img/search.svg" alt="Search" />
+                    <img onClick={() => setSearchValue('')} className='removeInput cu-p' src="./img/btn-remove.svg" alt="Remove" />
 
                     <input onChange={onChangeSearchInput} value={searchValue} placeholder='Search... ' />
                   </div>
@@ -188,7 +188,7 @@ useEffect(() => {
                 </div>
             :
                 <div className='emptyFav'>
-                  <img  src="/img/bigHeart.svg" alt="cart" />
+                  <img  src="./img/bigHeart.svg" alt="cart" />
                   <h1>You have no items in your Watchlist.</h1>
                   <span>
                     Start adding items to your Watchlist today! 
@@ -196,7 +196,7 @@ useEffect(() => {
                   </span>
                   <Link to='/'>
                     <button className='greenButton'>
-                      <img src="/img/arrow.svg" alt="arrow" />
+                      <img src="./img/arrow.svg" alt="arrow" />
                       Back to products
                     </button>
                   </Link>
@@ -204,12 +204,12 @@ useEffect(() => {
           }/>
           <Route path='/checkout' element={
             <div className='emptyFav'>
-              <img  src="/img/checkout.png" alt="cart" />
+              <img  src="./img/checkout.png" alt="cart" />
                   <h1 className='mb-30'>Checkout feature coming soon</h1>
                   
                   <Link to='/'>
                     <button className='green greenButton'>
-                      <img src="/img/arrow.svg" alt="arrow" />
+                      <img src="./img/arrow.svg" alt="arrow" />
                       Back to products
                     </button>
                   </Link>
