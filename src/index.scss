@@ -416,7 +416,7 @@ header {
           height: 25px;
           width: 25px;
           position: absolute;
-          left: 70px;
+          left: 10%;
           top: 15px;
           transition: transform 0.15s ease-in-out;
         }
@@ -437,7 +437,7 @@ header {
     }
     .emptyDrawer {
       text-align: center;
-      padding: 60px 70px;
+      padding: 60px 30px;
       margin: auto ;
       display: flex;
       flex-direction: column;
@@ -468,7 +468,7 @@ header {
           height: 20px;
           width: 20px;
           position: absolute;
-          left: 20px;
+          left: 5%;
           top: 18px;
           transition: transform 0.15s ease-in-out;
         }
