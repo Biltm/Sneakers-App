@@ -9,10 +9,10 @@ export default function Card({title, imageUrl, price, id, pId, onPlus, onFavorit
 const onClickPlus = () => {
   setTotalPrice(calcTotalPrice(price))
   const dodo = () => {
-    setIsAddet('/img/btn-plus.svg')
+    setIsAddet('./img/btn-plus.svg')
   }
   onPlus({title, imageUrl, price})
-  setIsAddet('/img/btn-checked.svg')
+  setIsAddet('./img/btn-checked.svg')
   setTimeout(dodo, 300) 
   
   
